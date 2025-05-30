@@ -21,4 +21,4 @@ Visit [makmahi.github.io/portfolio](https://makmahi.github.io/portfolio) to see 
 ## Contact
 - Email: mahlettsehaye01@gmail.com
 - GitHub: [github.com/Makmahi](https://github.com/Makmahi)
-- LinkedIn: [linkedin.com/in/mahlet-tsehaye](https://linkedin.com/in/mahlet-tsehaye) 
+- LinkedIn: [linkedin.com/in/mahlet-tsehaye](https://linkedin.com/in/mahlet-tsehaye)
