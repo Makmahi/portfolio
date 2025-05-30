@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Mahlet</span></h1>
+            <h2>Frontend Developer</h2>
+            <p>4th Year Computer Science Student at St. Mary University</p>
+            <a href="#contact" class="cta-button">Get in Touch</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I am a 4th year Computer Science student at St. Mary University, passionate about frontend development and creating engaging user experiences. Currently seeking internship opportunities to apply my skills and learn from industry professionals. I specialize in building responsive and user-friendly web applications using modern technologies.</p>
+                <div class="skills">
+                    <h3>Skills</h3>
+                    <div class="skill-tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                        <span>JavaScript</span>
+                        <span>Responsive Design</span>
+                        <span>Git</span>
+                        <span>Computer Science</span>
+                        <span>Problem Solving</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Task Management App</h3>
+                <p>A responsive task management application built with HTML, CSS, and JavaScript. Features include task creation, editing, deletion, and local storage persistence.</p>
+                <div class="project-links">
+                    <a href="https://github.com/Makmahi/task-manager" target="_blank"><i class="fab fa-github"></i> Code</a>
+                    <a href="https://makmahi.github.io/task-manager" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <h3>Weather Dashboard</h3>
+                <p>An interactive weather dashboard that displays current weather and forecasts using a weather API. Features include location search, temperature conversion, and responsive design.</p>
+                <div class="project-links">
+                    <a href="https://github.com/Makmahi/weather-dashboard" target="_blank"><i class="fab fa-github"></i> Code</a>
+                    <a href="https://makmahi.github.io/weather-dashboard" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <h3>Recipe Finder</h3>
+                <p>A recipe search application that allows users to find recipes based on ingredients. Includes filtering options, recipe details, and a clean, modern UI design.</p>
+                <div class="project-links">
+                    <a href="https://github.com/Makmahi/recipe-finder" target="_blank"><i class="fab fa-github"></i> Code</a>
+                    <a href="https://makmahi.github.io/recipe-finder" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Get in Touch</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>mahlettsehaye01@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <p>github.com/Makmahi</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <p>linkedin.com/in/mahlet-tsehaye</p>
+                </div>
+            </div>
+            <form id="contact-form">
+                <input type="text" placeholder="Name" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Message" required></textarea>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mahlet. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
