@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Finder</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <h1><i class="fas fa-utensils"></i> Recipe Finder</h1>
+            <p class="subtitle">Discover delicious recipes based on ingredients you have</p>
+        </div>
+    </header>
+
+    <!-- Search Section -->
+    <section class="search-section">
+        <div class="container">
+            <div class="search-container">
+                <div class="search-box">
+                    <input type="text" id="ingredient-input" placeholder="Enter ingredients (e.g., chicken, rice, tomatoes)">
+                    <button id="add-ingredient" class="btn"><i class="fas fa-plus"></i></button>
+                </div>
+                <div class="selected-ingredients" id="selected-ingredients">
+                    <!-- Selected ingredients will be added here -->
+                </div>
+                <div class="filters">
+                    <select id="diet-filter">
+                        <option value="">Any Diet</option>
+                        <option value="vegetarian">Vegetarian</option>
+                        <option value="vegan">Vegan</option>
+                        <option value="gluten-free">Gluten Free</option>
+                        <option value="dairy-free">Dairy Free</option>
+                    </select>
+                    <select id="cuisine-filter">
+                        <option value="">Any Cuisine</option>
+                        <option value="italian">Italian</option>
+                        <option value="mexican">Mexican</option>
+                        <option value="asian">Asian</option>
+                        <option value="american">American</option>
+                        <option value="mediterranean">Mediterranean</option>
+                    </select>
+                    <select id="meal-type">
+                        <option value="">Any Meal Type</option>
+                        <option value="breakfast">Breakfast</option>
+                        <option value="lunch">Lunch</option>
+                        <option value="dinner">Dinner</option>
+                        <option value="dessert">Dessert</option>
+                    </select>
+                </div>
+                <button id="search-btn" class="btn primary">Find Recipes</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Results Section -->
+    <section class="results-section">
+        <div class="container">
+            <div class="results-grid" id="results-grid">
+                <!-- Recipe cards will be added here -->
+            </div>
+            <div class="no-results" id="no-results" style="display: none;">
+                <i class="fas fa-search"></i>
+                <h2>No recipes found</h2>
+                <p>Try adjusting your search criteria or adding different ingredients</p>
+            </div>
+            <div class="loading" id="loading" style="display: none;">
+                <div class="spinner"></div>
+                <p>Searching for recipes...</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recipe Modal -->
+    <div class="modal" id="recipe-modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="modal-body">
+                <!-- Recipe details will be added here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Powered by <a href="https://spoonacular.com/food-api" target="_blank">Spoonacular API</a></p>
+            <p>&copy; 2024 Recipe Finder. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
